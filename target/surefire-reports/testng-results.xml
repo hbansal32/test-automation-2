@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118110" started-at="2019-12-09T03:54:51Z" finished-at="2019-12-09T03:56:49Z">
+    <groups>
+      <group name="Negative">
+        <method signature="LoginTest.LoginTest1_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest1_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest2_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest2_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest3_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest3_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest7_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest7_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest8_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest8_Test" class="test.LoginTest"/>
+      </group> <!-- Negative -->
+      <group name="Positive">
+        <method signature="LoginTest.LoginTest10_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest10_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest11_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest11_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest12_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest12_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest4_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest4_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest5_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest5_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest6_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest6_Test" class="test.LoginTest"/>
+        <method signature="LoginTest.LoginTest9_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest9_Test" class="test.LoginTest"/>
+      </group> <!-- Positive -->
+    </groups>
+    <test name="Test" duration-ms="118110" started-at="2019-12-09T03:54:51Z" finished-at="2019-12-09T03:56:49Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.LoginTest@7b02881e]" name="initialize" is-config="true" duration-ms="17769" started-at="2019-12-09T03:54:51Z" finished-at="2019-12-09T03:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="LoginTest10_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest10_Test" duration-ms="3923" started-at="2019-12-09T03:55:09Z" description="Verify if password can be copied from password field" data-provider="getData" finished-at="2019-12-09T03:55:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest10_Test -->
+        <test-method status="PASS" signature="LoginTest11_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest11_Test" duration-ms="501" started-at="2019-12-09T03:55:13Z" description="Verify if the Enter key of the keyboard is working correctly on the login page." data-provider="getData" finished-at="2019-12-09T03:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest11_Test -->
+        <test-method status="PASS" signature="LoginTest12_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest12_Test" duration-ms="473" started-at="2019-12-09T03:55:14Z" description="Verify if a user will be able to login with a valid username and valid password." data-provider="getData" finished-at="2019-12-09T03:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest12_Test -->
+        <test-method status="PASS" signature="LoginTest1_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest1_Test" duration-ms="13593" started-at="2019-12-09T03:55:14Z" description="Verify the login page for empty email field and valid password and submit button is clicked." data-provider="getData" finished-at="2019-12-09T03:55:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1_Test -->
+        <test-method status="PASS" signature="LoginTest2_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest2_Test" duration-ms="16835" started-at="2019-12-09T03:55:28Z" description="Verify the login page for valid email field and empty password field and Submit button is clicked." data-provider="getData" finished-at="2019-12-09T03:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest2_Test -->
+        <test-method status="PASS" signature="LoginTest3_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest3_Test" duration-ms="13517" started-at="2019-12-09T03:55:45Z" description="Verify the login page for empty email and password fields and Submit button is clicked." data-provider="getData" finished-at="2019-12-09T03:55:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest3_Test -->
+        <test-method status="PASS" signature="LoginTest4_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest4_Test" duration-ms="10627" started-at="2019-12-09T03:55:59Z" description="Verify the messages for invalid email address format." data-provider="getData" finished-at="2019-12-09T03:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest4_Test -->
+        <test-method status="PASS" signature="LoginTest5_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest5_Test" duration-ms="10563" started-at="2019-12-09T03:56:09Z" description="Verify the messages for invalid password format." data-provider="getData" finished-at="2019-12-09T03:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest5_Test -->
+        <test-method status="PASS" signature="LoginTest6_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest6_Test" duration-ms="10608" started-at="2019-12-09T03:56:20Z" description="Verify the messages for invalid email and password format." data-provider="getData" finished-at="2019-12-09T03:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest6_Test -->
+        <test-method status="PASS" signature="LoginTest7_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest7_Test" duration-ms="3708" started-at="2019-12-09T03:56:30Z" description="Verify the unsuccessful login for invalid email and password." data-provider="getData" finished-at="2019-12-09T03:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest7_Test -->
+        <test-method status="PASS" signature="LoginTest8_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest8_Test" duration-ms="1534" started-at="2019-12-09T03:56:34Z" description="Verify the unsuccessful login for valid email and password, but those are not related to each other" data-provider="getData" finished-at="2019-12-09T03:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest8_Test -->
+        <test-method status="PASS" signature="LoginTest9_Test(java.util.Map)[pri:0, instance:test.LoginTest@7b02881e]" name="LoginTest9_Test" duration-ms="4215" started-at="2019-12-09T03:56:36Z" description="Verify if the data in password field is encrypted." data-provider="getData" finished-at="2019-12-09T03:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest9_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@7b02881e]" name="tearDown" is-config="true" duration-ms="9023" started-at="2019-12-09T03:56:40Z" finished-at="2019-12-09T03:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

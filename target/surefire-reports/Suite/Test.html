@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 09 09:24:51 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>118 seconds (118110 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.LoginTest.LoginTest10_Test()'><b>LoginTest10_Test</b><br>Test class: test.LoginTest<br>Test method: Verify if password can be copied from password field<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>3</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest11_Test()'><b>LoginTest11_Test</b><br>Test class: test.LoginTest<br>Test method: Verify if the Enter key of the keyboard is working correctly on the login page.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest12_Test()'><b>LoginTest12_Test</b><br>Test class: test.LoginTest<br>Test method: Verify if a user will be able to login with a valid username and valid password.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest1_Test()'><b>LoginTest1_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the login page for empty email field and valid password and submit button is clicked.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>13</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest2_Test()'><b>LoginTest2_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the login page for valid email field and empty password field and Submit button is clicked.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>16</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest3_Test()'><b>LoginTest3_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the login page for empty email and password fields and Submit button is clicked.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>13</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest4_Test()'><b>LoginTest4_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the messages for invalid email address format.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>10</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest5_Test()'><b>LoginTest5_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the messages for invalid password format.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>10</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest6_Test()'><b>LoginTest6_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the messages for invalid email and password format.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>10</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest7_Test()'><b>LoginTest7_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the unsuccessful login for invalid email and password.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>3</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest8_Test()'><b>LoginTest8_Test</b><br>Test class: test.LoginTest<br>Test method: Verify the unsuccessful login for valid email and password, but those are not related to each other<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>1</td>
+<td>test.LoginTest@7b02881e</td></tr>
+<tr>
+<td title='test.LoginTest.LoginTest9_Test()'><b>LoginTest9_Test</b><br>Test class: test.LoginTest<br>Test method: Verify if the data in password field is encrypted.<br>Parameters: {validEmail2=validEmail2@gmail.com, invalidPassword=invalidPassword, validEmail=validEmail@gmail.com, validPassword=validPassword, shortPassword=short, invalidEmail=invalidEmail@gmail.com, incompleteEmail=incompleteEmail}</td>
+<td></td>
+<td>4</td>
+<td>test.LoginTest@7b02881e</td></tr>
+</table><p>
+</body>
+</html>
